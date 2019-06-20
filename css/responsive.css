@@ -1,0 +1,13 @@
+@media (max-width: 700px){
+    .mopsimg{
+        width: 70%;
+    }
+
+    .simup{
+        font-size: 1rem;
+    }
+
+    .carousel-item img{
+        width: 80%;
+    }
+}
