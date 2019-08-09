@@ -13,6 +13,11 @@ html {
     color: #2098D1;
 }
 
+.cw{
+    color: #fff;
+    font-weight: 600;
+}
+
 .mtitle{
     color: #fff;
     font-weight: 900;
@@ -21,7 +26,7 @@ html {
 }
 
 .mmtitle{
-    color: #fff;
+    color: rgb(204, 200, 200);
     font-weight: 300;
     font-size: 1rem;
     padding-top: 50px;
