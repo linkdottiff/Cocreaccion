@@ -1,0 +1,250 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    background-color: #222831;
+}
+
+.coloredb{
+    color: #2098D1;
+}
+
+.cw{
+    color: #fff;
+    font-weight: 600;
+}
+
+.mtitle{
+    color: #fff;
+    font-weight: 900;
+    padding-top: 100px;
+    font-size: 2rem;
+}
+
+.mmtitle{
+    color: rgb(204, 200, 200);
+    font-weight: 300;
+    font-size: 1rem;
+    padding-top: 50px;
+}
+
+p{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-top: 20px;
+    text-align: justify;
+    padding: 10px;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    width: 50%;
+    margin: 100px auto;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
+.simup{
+    font-size: 1.2rem;
+}
+
+.wflower{
+    width: 200px;
+}
+
+.wrapper {
+	position: relative;
+	max-width: 800px;
+	width: 100%;
+	padding: 0 50px;
+	margin: 100px auto 100px;
+}
+
+/* HOMEPAGE */
+
+.logoco {
+    width: 110px;
+}
+
+.socialico {
+    width: 15px;
+    margin: 0 10px;
+}
+
+.nav-item {
+    margin: 0 10px;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: #2098D1;
+}
+
+.nav-link {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+}
+
+.nav-link:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #2098D1;
+    height: 4px;
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.nav-link:hover:before,
+.nav-link:focus:before,
+.nav-link:active:before {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.img-home img{
+    margin: 8vh 0 0;
+    width: 100vw;
+    height: 92vh;
+}
+
+/* COMO */
+
+.cico{
+    width: 180px;
+}
+
+.icot{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+/* AMBITOS */
+
+.aimg{
+    margin-top: 40px;
+    width: 250px;
+}
+
+.eimg{
+    margin-top: 80px;
+    margin-right: 100px;
+    width: 250px; 
+}
+
+.amp{
+    color: #000;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.cajav{
+    margin: 20px 20px 0;
+    padding: 10px;
+    background-color: #8fd143;
+    border-radius: 3px;
+}
+
+/* SIMULADORES */
+
+#mops{
+    margin-top: 100px;
+}
+
+.cohesionando{
+    width: 60%;
+}
+
+.mopsimg{
+    width: 40%;
+}
+
+.mopscontainer{
+    position: relative;
+}
+
+.mopstext{
+    font-size: 1.2rem;
+    text-align: justify;
+    position: absolute;
+    color: #fff;
+    width: 30%;
+    top: -100vh;
+    left: 20vw;
+    padding: 20px;
+}
+
+.coinspirandoimg img{
+    width: 100%;
+}
+
+.interniimg{
+    width: 70%;
+}
+
+.comunidadesimg{
+    width: 100%;
+}
+
+.cocreandoimg{
+    width: 70%;
+}
+
+.simupc{
+    font-size: 1.2rem;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.sinergimg{
+    width: 70%;
+}
+
+.DCLimg{
+    width: 100%;
+}
+
+.ligoimg{
+    width: 100%;
+}
+
+.vecreaimg{
+    width: 60%;
+    margin-bottom: 50px;
+}
+
+.coalegrijesimg{
+    width: 80%;
+}
+
+#metodologias .mtitle{
+    padding-top: 0px;
+}
+
+.carousel-item img{
+    width: 50%;
+    border-radius: 10px;
+}
+
+.carousel{
+    margin: 100px 0;
+}
